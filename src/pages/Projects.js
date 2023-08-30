@@ -51,10 +51,14 @@ function Projects(props) {
 
                         <div className="middle-container">
 
-                            <img className="project-image" src={project.image} />
+                            <div className="image-text-container">
 
-                            <h5>{project.description}</h5>
+            
 
+                             <img className="project-image" src={project.image} />
+                          
+                            <h5 className="project-description">{project.description}</h5>
+                            </div>
                         </div>
 
                         <div className="bottom-container">
