@@ -8,27 +8,32 @@ function Header() {
     display: "flex",
     justifyContent: "space-around",
     borderBottom: ".2rem solid black",
-    padding: ".5rem",
-    width: "90%",
+    // padding: ".5rem",
+    width: "100%",
     margin: "auto",
     fontSize: "20px",
     backgroundColor: "#7fbbeb",
-    cursor: "pointer"
+    cursor: "pointer",
+
+    position: "fixed",
+    top: "0",
+    overflow: "hidden",
+
   };
 
 
   return (
     <header>
-      <h1>My Portfolio Page</h1>
+  
       <nav style={navStyle}>
         <Link to="/">
-          <div>HOME</div>
+          <button className="nav-button">HOME</button>
         </Link>
         <Link to="/about">
-          <div>ABOUT</div>
+          <button className="nav-button">ABOUT</button>
         </Link>
         <Link to="/projects">
-          <div>PROJECTS</div>
+          <button className="nav-button">PROJECTS</button>
         </Link>
       </nav>
     </header>

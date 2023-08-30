@@ -31,7 +31,14 @@ function About() {
   );
 
   // if data arrives return the result of loaded, if not, an h1 that says loading
-  return about ? loaded() : <h1>Loading...</h1>;
+  return (
+
+  <section className="page">
+  
+  { about ? loaded() : <h1>Loading...</h1> }
+
+    </section>
+  )
 }
 
 export default About;

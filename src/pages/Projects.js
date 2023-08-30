@@ -1,55 +1,87 @@
 import { useState, useEffect } from "react";
 
 function Projects(props) {
-  // create state to hold projects
-  const [projects, setProjects] = useState(null);
+    // create state to hold projects
+    const [projects, setProjects] = useState(null);
 
-  //create function to make api call
-  const getProjectsData = async () => {
+    //create function to make api call
+    const getProjectsData = async () => {
 
-		//make api call and get response
-    const response = await fetch("./projects.json");
+        //make api call and get response
+        const response = await fetch("./projects.json");
 
-		// turn response into javascript object
-    const data = await response.json();
+        // turn response into javascript object
+        const data = await response.json();
 
-		// set the projects state to the data
-    setProjects(data);
+        // set the projects state to the data
+        setProjects(data);
 
-  };
+    };
 
-  // make an initial call for the data inside a useEffect, so it only happens once on component load
-  useEffect(() => { getProjectsData() }, []);
+    // make an initial call for the data inside a useEffect, so it only happens once on component load
+    useEffect(() => { getProjectsData() }, []);
 
-  // define a function that will return the JSX needed once we get the data
-  const loaded = () => {
-    return projects.map((project) => (
+    // define a function that will return the JSX needed once we get the data
 
-      <div className="projects" key={projects.indexOf(project)}>
+    const loaded = () => {
 
-        <h1>{project.name}</h1>
+        return (
 
-       <div className="project-buttons">
+            <section className="page">
 
-        <a href={project.git}>
-          <button className="project-button">Github</button>
-        </a>
+            <section className="container-grid">
 
-        <a href={project.live}>
-          <button className="project-button">Live Site</button>
-        </a>
+                {projects.map((project) => {
 
-        </div>
+                    return (
+
+                        <div className="projects" key={projects.indexOf(project)}>
 
 
-        <img className="project-image" src={project.image} />
+                        <div className="top-container">
 
-      </div>
-    ));
-  };
+                            <h1>{project.name}</h1>
 
+                            <div className="role-year">
+                                <h4>{project.role}</h4>
+                                <h4> - {project.year}</h4>
+                            </div>
 
-  return projects ? loaded() : <h1>Loading...</h1>;
+                        </div>
+
+                        <div className="middle-container">
+
+                            <img className="project-image" src={project.image} />
+
+                            <h5>{project.description}</h5>
+
+                        </div>
+
+                        <div className="bottom-container">
+
+                            <div className="project-buttons">
+
+                                {project.git ? <a href={project.git} target="_blank">
+                                    {project.git ? <button className="project-button">Github</button> : null}
+                                </a>
+                                    : null}
+
+                                <a href={project.live} target="_blank">
+                                    <button className="project-button">Live Site</button>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        </div>
+                    )
+                })}
+            </section>
+            </section>
+        )
+    }
+
+    return projects ? loaded() : <h1>Loading...</h1>;
 }
 
 export default Projects;

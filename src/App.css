@@ -2,32 +2,101 @@
   text-align: center;
 }
 
+p, h2, h3, h4, h5, h6 {
+  margin: 0.1rem
+}
+
+h1 {
+  margin-bottom: 0.2rem;
+}
+
+h4 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.role-year {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(300px, auto);
+  grid-gap: 5rem;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 
 
 .projects {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-bottom: 75px;
+  background-color: #b4c3e2;
+  box-shadow: 3px 3px rgb(150, 135, 135);
+  border-radius: 1rem;
+  display: grid;
+  grid-template-areas: 
+    "top" 
+    "middle"
+    "bottom"
+}
+
+.top-container {
+  grid-area: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+
+.middle-container {
+  grid-area: middle;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-container {
+  grid-area: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+.projects:hover {
+  background-color: rgb(225, 201, 201);
+  transition: 0.4s;
 }
 
 
 .project-image {
-  width: 70vw;
-  height: 100%
-  
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  max-height: 60vh;
+  margin-top: 0.4rem;
 }
 
 
 .headshot-image {
   width: 30vw;
-  height: 100%
+  height: 100%;
+  border-radius: 4rem;
 }
 
 
 .project-buttons {
   display: flex;
   justify-content: space-evenly;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .project-button {
@@ -35,11 +104,27 @@ margin-bottom: 75px;
   transition-duration: 0.4s;
   cursor: pointer;
   margin: 10px;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 
 .project-button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.nav-button {
+  background-color: #4b708e;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+
+.nav-button:hover {
   background-color: #4CAF50;
   color: white;
 }
@@ -80,3 +165,8 @@ margin-bottom: 75px;
   }
 }
 
+
+.page {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}

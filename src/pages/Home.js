@@ -23,9 +23,13 @@ function Home() {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
+
+    <section className="page">
+
     <div>
       <h2>{home.name}</h2>
     </div>
+    </section>
   );
 
   // if data arrives return the result of loaded, if not, an h1 that says loading

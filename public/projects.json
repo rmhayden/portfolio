@@ -4,15 +4,53 @@
 [
   {
     "name": "CRRT Simulation",
+    "year": "2023",
+    "role": "Sole Developer",
     "live": "https://renalprimers.com/crrt/",
     "git": "https://github.com/rmhayden/crrt",
-    "image": "https://robscontent.com/images/portfolio/crrt_img.png"
+    "image": "https://robscontent.com/images/portfolioimages/crrt_img.png",
+    "description": "test test test"
   },
   {
     "name": "Wavelength: EMR",
+    "year": "2023",
+    "role": "Collaborative Developer",
     "live": "https://wavelength-emr-ec309aa814db.herokuapp.com/",
     "git": "https://github.com/rmhayden/electronic-medical-record",
-    "image": "https://robscontent.com/images/portfolio/wavelength_img.png"
+    "image": "https://robscontent.com/images/portfolioimages/wavelength_img.png",
+    "description": "test test test test test test"
+  },
+  {
+    "name": "NEJM Group: COVID-19 Rx Treatment Simulations",
+    "year": "2020",
+    "role": "Content Contributor",
+    "live": "https://covid19rx.nejm.org/landing/index.html",
+    "image": "https://robscontent.com/images/portfolioimages/covid19sim.png",
+    "description": "test test test test test test"
+  },
+  {
+    "name": "RenalPrimers.com",
+    "year": "2021",
+    "role": "Sole Developer",
+    "live": "https://renalprimers.com",
+    "image": "https://robscontent.com/images/portfolioimages/renalprimers.png",
+    "description": "test test test test test test"
+  },
+  {
+    "name": "COVID-19 Primer",
+    "year": "2020",
+    "role": "Primary Developer",
+    "live": "https://interactives.nejm.org/external/covid_simulation/index.html",
+    "image": "https://robscontent.com/images/portfolioimages/covid19primer.png",
+    "description": "test test test test test test"
+  },
+  {
+    "name": "COVID-19 Primer: Part II",
+    "year": "2020",
+    "role": "Primary Developer",
+    "live": "https://interactives.nejm.org/external/covid_simulation/index.html",
+    "image": "https://robscontent.com/images/portfolioimages/covid19primer2.png",
+    "description": "test test test test test test"
   }
 ]
 
