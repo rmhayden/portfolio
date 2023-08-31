@@ -21,6 +21,21 @@ h4 {
   justify-content: center;
   opacity: 0;
   transition: 1s;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.project-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  opacity: 1;
+  transition: .3s;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .container-grid {
@@ -50,15 +65,20 @@ h4 {
   grid-area: top;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  margin-left: 0.4rem;
-  margin-right: 0.4rem;
+  justify-content: center space-evenly;
+  /* margin-left: 0.4rem;
+  margin-right: 0.4rem; */
+  height: 50%;
+  border-bottom: 0.1rem solid grey;
+  background-color: rgb(170, 182, 206);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 
 .middle-container {
+
   grid-area: middle;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,8 +95,13 @@ h4 {
 }
 
 .projects:hover {
-  background-color: rgb(225, 201, 201);
+  background-color: rgb(249, 214, 214);
   transition: 0.4s;
+  cursor: context-menu 
+}
+
+.projects:hover .top-container {
+  background-color: rgb(225, 201, 201);
 }
 
 .projects:hover .project-description {
@@ -96,6 +121,11 @@ h4 {
   opacity: 0
 }
 
+.projects:hover .project-name{
+  transition: .4s;
+  opacity: 0
+}
+
 .projects:hover .bottom-container {
   transition: .4s;
   opacity: 1
@@ -105,8 +135,15 @@ h4 {
 .project-description {
   position: absolute;
   transition: 1s;
-  display: none
+  display: none;
+  line-break: strict;
+  white-space: pre-wrap;
+  top: -40px;
+  margin-left: 1rem;
+  margin-right: 1rem
 }
+
+
 
 .image-text-container {
   display: flex;
@@ -119,28 +156,21 @@ h4 {
 
 .project-image {
   position: absolute;
-  top: -70px;
-  /* margin-left: 5%; */
+  top: -40px;
 
-  height: 310%;
+  opacity: 0.8;
 
-  width: auto;
+  height: auto;
+  max-height: 300%;
+  margin-left: 15px;
+  margin-right: 15px;
 
-  transition: 1s
+  width: 80%;
+
+  transition: 1s;
+  z-index: 1;
 }
 
-
-/* .project-image {
-  position: absolute;
-  top: -40px;
-  left: 0px;
-  display: flex;
-  margin: auto;
-  width: 80%;
-  height: auto;
-  max-height: 60vh;
-  transition: 1s;
-} */
 
 
 .headshot-image {
@@ -155,6 +185,7 @@ h4 {
   justify-content: space-evenly;
   margin-left: 3rem;
   margin-right: 3rem;
+  z-index: 2;
 }
 
 .project-button {
@@ -225,6 +256,30 @@ h4 {
 
 
 .page {
-  margin-top: 4rem;
+  margin-top: 6rem;
   margin-bottom: 4rem;
+}
+
+
+
+@media only screen and (max-width: 780px) {
+
+  .project-image {
+    position: absolute;
+    top: -40px;
+
+    opacity: 0.8;
+  
+    height: auto;
+    max-height: 300%;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+    width: 60%;
+  
+    transition: 1s;
+    z-index: 1;
+  }
+
+
 }

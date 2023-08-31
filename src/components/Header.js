@@ -18,6 +18,7 @@ function Header() {
     position: "fixed",
     top: "0",
     overflow: "hidden",
+    zIndex: "10"
 
   };
 

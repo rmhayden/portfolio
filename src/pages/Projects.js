@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
 
+
+
+
+
 function Projects(props) {
     // create state to hold projects
     const [projects, setProjects] = useState(null);
@@ -40,11 +44,12 @@ function Projects(props) {
 
                         <div className="top-container">
 
-                            <h1>{project.name}</h1>
+      
+                            <h1 className="project-name">{project.name}</h1>
 
                             <div className="role-year">
-                                <h4>{project.role}</h4>
-                                <h4> - {project.year}</h4>
+                                <h3>{project.role}</h3>
+                                <h3> - {project.year}</h3>
                             </div>
 
                         </div>
@@ -57,7 +62,7 @@ function Projects(props) {
 
                              <img className="project-image" src={project.image} />
                           
-                            <h5 className="project-description">{project.description}</h5>
+                            <h4 className="project-description" >{project.description}</h4>
                             </div>
                         </div>
 

@@ -9,7 +9,7 @@
     "live": "https://renalprimers.com/crrt/",
     "git": "https://github.com/rmhayden/crrt",
     "image": "https://robscontent.com/images/portfolioimages/crrt_img.png",
-    "description": "test test test"
+    "description": ["Virtual patient simulation for physicians and other providers learning to manage continuous renal replacement therapy in critically ill patients.", [" \n\n Created using JavaScript, HTML, CSS."]]
   },
   {
     "name": "Wavelength: EMR",
