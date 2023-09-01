@@ -31,10 +31,10 @@ function Header() {
           <button className="nav-button">HOME</button>
         </Link>
         <Link to="/about">
-          <button className="nav-button">ABOUT</button>
+          <button className="nav-button">ABOUT ME</button>
         </Link>
         <Link to="/projects">
-          <button className="nav-button">PROJECTS</button>
+          <button className="nav-button">MY PROJECTS</button>
         </Link>
       </nav>
     </header>

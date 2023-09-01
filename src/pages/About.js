@@ -23,10 +23,12 @@ function About() {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
     <div>
-      <h2>{about.name}</h2>
       <img className="headshot-image" src={about.headshot} />
-      <h3>{about.email}</h3>
-      <p>{about.bio}</p>
+      <h2>{about.name}</h2>
+      <br></br>
+      <p className="bio-description">{about.bio}</p>
+      <br></br>
+      <h4>{about.email}</h4>
     </div>
   );
 

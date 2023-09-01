@@ -9,7 +9,7 @@
     "live": "https://renalprimers.com/crrt/",
     "git": "https://github.com/rmhayden/crrt",
     "image": "https://robscontent.com/images/portfolioimages/crrt_img.png",
-    "description": ["Virtual patient simulation for physicians and other providers learning to manage continuous renal replacement therapy in critically ill patients.", [" \n\n Created using JavaScript, HTML, CSS."]]
+    "description": "Virtual patient simulation for physicians and other providers learning to manage continuous renal replacement therapy in critically ill patients. \n\nJavaScript, HTML, CSS"
   },
   {
     "name": "Wavelength: EMR",
@@ -18,15 +18,7 @@
     "live": "https://wavelength-emr-ec309aa814db.herokuapp.com/",
     "git": "https://github.com/rmhayden/electronic-medical-record",
     "image": "https://robscontent.com/images/portfolioimages/wavelength_img.png",
-    "description": "test test test test test test"
-  },
-  {
-    "name": "NEJM Group: COVID-19 Rx Treatment Simulations",
-    "year": "2020",
-    "role": "Content Contributor",
-    "live": "https://covid19rx.nejm.org/landing/index.html",
-    "image": "https://robscontent.com/images/portfolioimages/covid19sim.png",
-    "description": "test test test test test test"
+    "description": "Fully functional electronic medical record system with login for providers linked to Google account. Uses openAI to automatically generate the patient discharge summary.\n\n MongoDB, ExpressJS, Node.js"
   },
   {
     "name": "RenalPrimers.com",
@@ -34,7 +26,15 @@
     "role": "Sole Developer",
     "live": "https://renalprimers.com",
     "image": "https://robscontent.com/images/portfolioimages/renalprimers.png",
-    "description": "test test test test test test"
+    "description": "Website created for internal medicine residents to learn key concepts in nephrology through cases and interactive animations.\n\n JavaScript, HTML, CSS"
+  },
+  {
+    "name": "NEJM Group: COVID-19 Rx Treatment Simulations",
+    "year": "2020",
+    "role": "Content Contributor",
+    "live": "https://covid19rx.nejm.org/landing/index.html",
+    "image": "https://robscontent.com/images/portfolioimages/covid19sim.png",
+    "description": "Product of NEJM Group. Four simulations focused on care of inpatients with COVID-19.\n\n Contributed to simulation content"
   },
   {
     "name": "COVID-19 Primer",
@@ -42,7 +42,7 @@
     "role": "Primary Developer",
     "live": "https://interactives.nejm.org/external/covid_simulation/index.html",
     "image": "https://robscontent.com/images/portfolioimages/covid19primer.png",
-    "description": "test test test test test test"
+    "description": "Interactive virtual patient simulation that I created in April, 2020 focused on care of inpatients with COVID-19. Posted on NEJM website and initially used by tens of thousands of users globally. \n\n Adobe Animate, JavaScript"
   },
   {
     "name": "COVID-19 Primer: Part II",
@@ -50,7 +50,7 @@
     "role": "Primary Developer",
     "live": "https://interactives.nejm.org/external/covid_simulation/index.html",
     "image": "https://robscontent.com/images/portfolioimages/covid19primer2.png",
-    "description": "Project Description: ..."
+    "description": "Follow up part II of the initial interactive virtual patient simulation focused on critically ill patients with COVID-19.\n\n Adobe Animate, JavaScript"
   }
 ]
 
