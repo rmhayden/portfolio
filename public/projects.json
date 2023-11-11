@@ -3,6 +3,37 @@
 
 [
   {
+    "name": "Hyponatremia Simulator",
+    "year": "2023",
+    "role": "Co-Developer",
+    "live": "https://renalprimers.com/",
+    "git": "https://github.com/rmhayden/hyponatremia",
+    "image": "https://robscontent.com/images/portfolioimages/hyponatremiasim.png",
+    "description": "Virtual patient simulation with integrated generative AI for physicians and other providers learning to manage hyponatremia. \n\nJavaScript, HTML, CSS, React, MongoBD, Express, OpenAI"
+  },
+
+  {
+    "name": "RenalConsults.com",
+    "year": "2023",
+    "role": "Co-Developer",
+    "live": "https://renalconsults.com/",
+    "git": "https://github.com/rmhayden/aki-consult",
+    "image": "https://robscontent.com/images/portfolioimages/renalconsultsimage.png",
+    "description": "Note generator with integrated generative AI for acute kidney injury consults in hospitalized patients. \n\nJavaScript, HTML, CSS, React, MongoBD, Express, OpenAI"
+  },
+
+  {
+    "name": "KidneyCalc.org",
+    "year": "2023",
+    "role": "Sole Developer",
+    "live": "https://kidneycalc.org/",
+    "image": "https://robscontent.com/images/portfolioimages/kidneycalcimage.png",
+    "description": "Evidence-based risk calculator site for acute kidney injury. \n\n\nJavaScript, HTML, CSS"
+  },
+
+
+  
+  {
     "name": "CRRT Simulation",
     "year": "2023",
     "role": "Sole Developer",
@@ -18,13 +49,13 @@
     "live": "https://wavelength-emr-ec309aa814db.herokuapp.com/",
     "git": "https://github.com/rmhayden/electronic-medical-record",
     "image": "https://robscontent.com/images/portfolioimages/wavelength_img.png",
-    "description": "Fully functional electronic medical record system with login for providers linked to Google account. Uses openAI to automatically generate the patient discharge summary.\n\n MongoDB, ExpressJS, Node.js"
+    "description": "EMR system with provider login linked to Google account. Create a patient discharge summary from all prior notes using generative AI.\n\n MongoDB, ExpressJS, Node.js, OpenAI"
   },
   {
     "name": "RenalPrimers.com",
     "year": "2021",
     "role": "Sole Developer",
-    "live": "https://renalprimers.com",
+    "live": "https://renalprimers.com/home",
     "image": "https://robscontent.com/images/portfolioimages/renalprimers.png",
     "description": "Website created for internal medicine residents to learn key concepts in nephrology through cases and interactive animations.\n\n JavaScript, HTML, CSS"
   },
@@ -42,7 +73,7 @@
     "role": "Primary Developer",
     "live": "https://interactives.nejm.org/external/covid_simulation/index.html",
     "image": "https://robscontent.com/images/portfolioimages/covid19primer.png",
-    "description": "Interactive virtual patient simulation that I created in April, 2020 focused on care of inpatients with COVID-19. Posted on NEJM website and initially used by tens of thousands of users globally. \n\n Adobe Animate, JavaScript"
+    "description": "Interactive virtual patient simulation that I created in April, 2020 focused on care of inpatients with COVID-19. Posted on NEJM website and with thousands of users globally. \n\n Adobe Animate, JavaScript"
   },
   {
     "name": "COVID-19 Primer: Part II",

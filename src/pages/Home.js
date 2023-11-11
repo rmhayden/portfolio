@@ -27,13 +27,13 @@ function Home() {
     <section className="page">
 
     <div>
-      <h2>{home.name}</h2>
+      <h2>Med Primers</h2>
     </div>
     </section>
   );
 
   // if data arrives return the result of loaded, if not, an h1 that says loading
-  return home ? loaded() : <h1>Loading...</h1>;
+  return home ? loaded() : <h3><br></br><br></br>Loading...</h3>;
 }
 
 

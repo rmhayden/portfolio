@@ -37,7 +37,7 @@ function About() {
 
   <section className="page">
   
-  { about ? loaded() : <h1>Loading...</h1> }
+  { about ? loaded() : <h3><br></br><br></br>Loading...</h3> }
 
     </section>
   )

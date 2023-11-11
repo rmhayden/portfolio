@@ -44,13 +44,7 @@ function Projects(props) {
 
                         <div className="top-container">
 
-      
                             <h1 className="project-name">{project.name}</h1>
-
-                            <div className="role-year">
-                                <h3>{project.role}</h3>
-                                <h3> - {project.year}</h3>
-                            </div>
 
                         </div>
 
@@ -58,11 +52,9 @@ function Projects(props) {
 
                             <div className="image-text-container">
 
-            
-
                              <img className="project-image" src={project.image} />
                           
-                            <h4 className="project-description" >{project.description}</h4>
+                            <p className="project-description" >{project.description}.&nbsp;&nbsp;{project.role}&nbsp;&nbsp;{project.year}</p>
                             </div>
                         </div>
 
@@ -90,7 +82,7 @@ function Projects(props) {
         )
     }
 
-    return projects ? loaded() : <h1>Loading...</h1>;
+    return projects ? loaded() : <h3><br></br><br></br>Loading...</h3>;
 }
 
 export default Projects;
