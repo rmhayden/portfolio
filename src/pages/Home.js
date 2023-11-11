@@ -27,7 +27,7 @@ function Home() {
     <section className="page">
 
     <div>
-      <h2>Med Primers</h2>
+      <h2>Med Primers LLC</h2>
     </div>
     </section>
   );

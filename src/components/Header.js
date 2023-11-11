@@ -30,7 +30,7 @@ function Header() {
           <button className="nav-button">H<small>OME</small></button>
         </Link>
         <Link to="/about">
-          <button className="nav-button"><p className="nav-button-text">A<small>BOUT</small></p></button>
+          <button className="nav-button"><p className="nav-button-text">T<small>EAM</small></p></button>
         </Link>
         <Link to="/projects">
           <button className="nav-button">P<small>ROJECTS</small></button>
