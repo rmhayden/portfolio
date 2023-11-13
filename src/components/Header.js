@@ -26,13 +26,13 @@ function Header() {
     <header>
   
       <nav style={navStyle}>
-        <Link to="/">
+        <Link to="/portfolio/">
           <button className="nav-button">H<small>OME</small></button>
         </Link>
-        <Link to="/about">
+        <Link to="/portfolio/about">
           <button className="nav-button"><p className="nav-button-text">T<small>EAM</small></p></button>
         </Link>
-        <Link to="/projects">
+        <Link to="/portfolio/projects">
           <button className="nav-button">P<small>ROJECTS</small></button>
         </Link>
       </nav>

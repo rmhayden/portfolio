@@ -1,5 +1,6 @@
 {
-  "name": "portfolio",
+  "name": "medprimers",
+  "homepage": "https://medprimers.com/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
